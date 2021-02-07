@@ -46,3 +46,7 @@ Currently I am the student of the Rolling Scopes School. I am studying at the JS
 **2012-2017**  
 Economic faculty, 
 *BSU*  
+
+***
+- ### Languages  
+English: B2 (Upper-intermeddiate)
