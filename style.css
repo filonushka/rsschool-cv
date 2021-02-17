@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  margin: 0 auto;
+  font-family: "Balsamiq Sans", cursive;
+  color: #383e39;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 877px;
+  background-color: #f9f8f5;
+}
+
+.left-column {
+  width: 377px;
+  background-color: #d1ddd1;
+}
+
+.right-column {
+  width: 500px;
+  height: 100vh;
+}
+
+.photo_place {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.photo {
+  height: 70%;
+  width: 70%;
+  border-radius: 100%;
+}
+
+.name,
+.job_title {
+  text-align: center;
+}
+
+.block_name {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.line {
+  height: 2px;
+  background-color: #383e39;
+  margin-right: 60px;
+}
+
+.skills_description,
+.сontact_info,
+.interests {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.skills_description ul {
+  padding-left: 20px;
+}
+
+.contact_info__list,
+.interests__list {
+  list-style: none;
+  padding-left: inherit;
+}
+
+.contact_info__list li,
+.interests__list li {
+  display: flex;
+  padding-bottom: 10px;
+}
+.contact_info__list span,
+.interests__list span {
+  padding-left: 15px;
+}
+.contact_info__list a {
+  text-decoration: none;
+  color: #383e39;
+}
+
+.icons {
+  height: 25px;
+}
