@@ -14,13 +14,12 @@ body {
 }
 
 .left-column {
-  width: 377px;
+  width: 40%;
   background-color: #d1ddd1;
 }
 
 .right-column {
-  width: 500px;
-  height: 100vh;
+  width: 60%;
 }
 
 .photo_place {
@@ -52,8 +51,11 @@ body {
 
 .skills_description,
 .сontact_info,
-.interests {
-  margin-top: 80px;
+.interests,
+.profile,
+.academic_history,
+.career_summary {
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -70,6 +72,7 @@ body {
 .contact_info__list li,
 .interests__list li {
   display: flex;
+  align-items: center;
   padding-bottom: 10px;
 }
 .contact_info__list span,
@@ -83,4 +86,87 @@ body {
 
 .icons {
   height: 25px;
+}
+
+.right-column_names {
+  padding: 10px 0px 0px 10px;
+  background-color: #d1ddd1;
+  border-bottom: 2px solid;
+  font-size: 20px;
+}
+
+.additional_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.additional_icons {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.location,
+.language {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 18px;
+}
+
+.profile_content {
+  font-size: 14px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.academic_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.school_years {
+  padding-right: 20px;
+}
+.school_name {
+  font-size: 18px;
+}
+
+.career_content {
+  padding: 0px 20px;
+}
+
+.career_years,
+.work_places {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+}
+
+.years {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.work {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.career_line {
+  height: 1px;
+  background-color: #383e39;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+}
+
+.dots {
+  z-index: 1;
+  height: 9px;
+  width: 9px;
+  background-color: #383e39;
+  border-radius: 100%;
+  margin: 0 auto;
 }
